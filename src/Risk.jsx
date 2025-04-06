@@ -12,7 +12,7 @@ const Risk = () => {
     const[occupation,setOccupation] = useState('');
     const[risklevel,setRisklevel] = useState('');
   
-    const occupations = ['Service','Admin','Gig','Labour','Business'];
+    const occupations = ['Student','Salaried Employee','Self Employed','Non-salaried individual'];
   
     const calculaterisk =()=>{
       if(!age || !salary || !occupation){
