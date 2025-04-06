@@ -97,7 +97,7 @@ const Risk = () => {
         <div className='d'>
           <label>
             <b>Selected Occupation:</b>
-            <input type='text' value={occupation} readOnly style={{border: 'none', marginLeft:'15px', fontSize:'18px', width:'150px'}} />
+            <input type='text' value={occupation} readOnly style={{border: 'none', marginLeft:'15px', fontSize:'18px', width:'200px'}} />
           </label>
         </div>
   
