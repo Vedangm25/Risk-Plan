@@ -1,0 +1,25 @@
+*{
+    color: black;
+}
+#font{
+    margin-right: 10px;
+}
+
+i{
+    margin-left: 10px;
+}
+
+#nav {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+#nav:hover{
+   color: red;
+   border-radius: 5px;
+   border: 1px solid black;
+   padding: 5px;
+   background-color: rgb(255, 255, 255);
+   
+   transition: border-radius 0.1s;
+}

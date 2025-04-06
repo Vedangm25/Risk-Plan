@@ -1,0 +1,22 @@
+
+  .marquee {
+    width: 100%;
+    background: rgb(180, 196, 236);
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  
+  .marquee div {
+    font-size: 20px;
+    font-family: verdana;
+    padding-left: 100%;
+    display: inline-block;
+    animation: animate 10s linear infinite;
+  }
+  
+  @keyframes animate {
+    100% {
+      transform: translate(-100%, 0);
+    }
+  }

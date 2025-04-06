@@ -1,0 +1,38 @@
+.cls{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+ ul li{
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.cl1{
+    margin-left: 50px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+img{
+    height: 180px;
+     width:400px; 
+     margin-Top:35px
+}
+
+img:hover{
+    box-shadow: 0px 7px 28px 12px rgba(103,103,103,0.8);
+    transition: box-shadow 0.5s;
+}
+
+.box{
+    display: flex;
+}
+
+.lnk{
+    margin-left: 50px;
+}
+
