@@ -27,12 +27,14 @@ const Risk = () => {
       let risk ='';
   
       // Risk assessment logic
-      if(ageNum <18 || salaryNum<25000){
+      if(salaryNum > 50000){
         risk = 'High Risk'
-      } else if (ageNum >= 18 && ageNum <= 35 && salaryNum > 25000 && salaryNum < 50000) {
+      } else if (salaryNum >= 25999 && salaryNum <= 49999) {
         risk = 'Medium Risk';
-      } else {
+      }else if (salaryNum < 25000) {
         risk = 'Low Risk';
+      } else {
+        risk = 'No Risk';
       }
   
       setRisklevel(risk);
