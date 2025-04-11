@@ -77,8 +77,8 @@ const Risk = () => {
   
         <div className='d'>
           <label>
-            <b>Salary:</b>
-            <input type='number' value={salary} onChange={(e)=>setSalary(e.target.value)} style={{marginLeft:'10px'}}/>
+            <b>Salary (Per-Month):</b>
+            <input type='number' value={salary} onChange={(e)=>setSalary(e.target.value)} style={{marginLeft:'10px',width:'150px'}}/>
           </label>
         </div>
   
